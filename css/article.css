@@ -1,0 +1,83 @@
+.tasks { 
+	display: flex;
+	flex-direction: column;
+}
+
+.tasks__card {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+
+.hidden { 
+	visibility: hidden;
+}
+
+.tasks__cardcontent { 
+	background: #FFFFFF;
+	border-radius: 8px;
+	max-width: calc(50% - 12px);
+	padding: 24px;
+}
+
+.tasks__cardcontent-top { 
+	display: flex;
+	gap: 8px;
+	margin-bottom: 13px;
+	align-items: center;
+}
+
+.card__icon {
+	font-size: 16px;
+	line-height: 19px;
+	white-space: nowrap;
+}
+
+.card__link { 
+	font-size: 16px;
+	line-height: 16px;
+	background: #ECF1F8;
+	border-radius: 6px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.tasks__cardcontent-body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 44px;
+	color: #3E4056;
+	margin-bottom: 44px;
+}
+
+.tasks__cardcontent-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.copywriter__menu {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.sharelink {
+	font-size: 18px;
+	line-height: 25px;
+	color: #F05D63;
+}
+
+.tasks__cardcontent-special { 
+	display: flex;
+	gap: 16px;
+}
+
+.icon__view { 
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}

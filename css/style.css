@@ -1,0 +1,11 @@
+@import "../css/article.css";
+@import "../css/common.css";
+@import "../css/header.css";
+@import "../css/media.css";
+@import "../css/nullstyle.css";
+@import "../css/section.css";
+@import "../css/switcher.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');

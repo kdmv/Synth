@@ -1,0 +1,169 @@
+@media (max-width:1200px){
+	.container{
+		max-width: 970px;
+	}
+}
+
+@media (max-width:992px){
+	.container{
+		max-width: 750px;
+		margin: 0 auto;
+	}
+
+	.sidebar__body { 
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.switch{
+		justify-content: center;
+		padding-left: 0;
+		margin-bottom: 140px;
+	}
+
+	.section__aside{
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.profile__text{
+		font-size: 20px;
+	}
+
+	.sidebar__switcher-text{
+		font-size: 20px;
+	}
+
+}
+
+@media (max-width:767px){
+	
+	.container{
+		max-width: 650px;
+		margin: 0 auto;
+	}
+
+	.tasks__card{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		gap: 12px;
+	}
+
+	.tasks__cardcontent{
+		max-width: 300px;
+		padding: 12px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width:620px){
+	.container{
+		max-width: 480px;
+		margin: 0 auto;
+	}
+
+	.points{
+		transform: translate(-110%,-40%);
+		visibility: hidden;
+	}
+
+	.circle{
+		width: 50px;
+		height: 50px;
+	}
+
+	.circle::before, .circle::after{
+		width: 15px;
+	}
+}
+
+@media (max-width:400px){
+	.user__content {
+		flex-direction: column;
+	}
+
+	.user__icons{
+		margin-left: 10px;
+	}
+
+	.tasks{
+		margin: 0 auto;
+	}
+}
+
+
+@media (min-width:2000px){
+	.container{
+		max-width: 2400px;
+	}
+
+	.user__name{
+		font-size: 26px;
+	}
+
+	.user__photo{
+		width: 70px;
+	}
+
+	.user__arrow{
+		width: 30px;
+	}
+
+	.user__content{
+		margin-bottom: 24px;
+	}
+
+	.container__menu-link {
+		gap: 80px;
+	}
+
+	.link{
+		font-size: 20px;
+		opacity: 0.6;
+	}
+
+	.circle{
+		width: 85px;
+		height: 85px;
+	}
+	
+	.points{
+		visibility: hidden;
+	}
+	
+	.hidden{
+		visibility: visible;
+	}
+
+	.tasks__cardcontent{
+		max-width: calc(45% - 24px);
+	}
+
+	.card__icon{
+		font-size: 20px;
+	}
+
+	.tasks__cardcontent-body{
+		font-size: 45px;
+	}
+
+	.copywriter__menu img{
+		width: 35px;
+	}
+
+	.copywriter__name{
+		font-size: 20px;
+	}
+}
+
+@media (min-width:3000px){
+	.container{
+		max-width: 2700px;
+	}
+
+	.tasks__cardcontent{
+		max-width: calc(25% - 24px);
+	}
+}
